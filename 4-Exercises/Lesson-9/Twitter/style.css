@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px gray;
+    width: 35%;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+}
+img {
+    width: 50px;
+    border-radius: 50px;
+    margin: 10px;
+}
+input {
+    border: none;
+    padding: 20px 70px;
+    padding-left: 15px;
+    font-size: 20px;
+    outline: none;
+}
+input::placeholder{
+    font-size: 20px;
+    font-family: tahoma;
+}
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    color: white;
+    background: blue;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
