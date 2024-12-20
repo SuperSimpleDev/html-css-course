@@ -1,10 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    margin-top: 100px;
 }
 .twocheckbox {
     display: grid;
@@ -13,7 +16,7 @@
 }
 .fName {
     padding: 10px 0;
-    padding-left: 20px;
+    padding-left: 10px;
     border-radius: 5px;
     border: 2px solid rgb(221, 219, 219);
     outline-color: black;
@@ -23,12 +26,16 @@
     font-size: 17px;
     padding-left: 10px;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
 .email {
     margin-top: 12px;
-    width: 460px;
 }
 button {
-    padding: 10px 203px;
+    padding: 10px 0;
     font-size: 20px;
     color: white;
     background: rgb(73, 73, 230);
@@ -39,5 +46,5 @@ button {
     cursor: pointer;
 }
 button:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
