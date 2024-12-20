@@ -1,7 +1,43 @@
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     align-items: center;
+    justify-content: center;
     height: 500px;
+    margin-top: 100px;
+}
+.twocheckbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6px;
+}
+.fName {
+    padding: 10px 0;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 219, 219);
+    outline-color: black;
+    font-size: 17px;
+}
+.fName::Placeholder {
+    font-size: 17px;
+    padding-left: 10px;
+}
+.email {
+    margin-top: 12px;
+    width: 460px;
+}
+button {
+    padding: 10px 203px;
+    font-size: 20px;
+    color: white;
+    background: rgb(73, 73, 230);
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.6;
 }
