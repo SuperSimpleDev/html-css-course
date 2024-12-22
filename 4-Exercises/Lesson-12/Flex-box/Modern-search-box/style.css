@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 520;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 60px;
+    margin: 5px 5px;
+    color: white;
+    background: rgb(120, 82, 178);
+    font-family: tahoma;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 25px;
+}
+button {
+    padding: 8px 15px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+
+}

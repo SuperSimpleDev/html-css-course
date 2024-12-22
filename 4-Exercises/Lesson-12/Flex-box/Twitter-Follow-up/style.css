@@ -56,3 +56,16 @@ span {
     font-style:  italic;
     color: rgb(112, 102, 102);
 }
+/* @media (min-width: 0) and (max-width: 350px) {
+    .secondFlex {
+        width: 15%;
+    }
+    button {
+        height: 50px;
+    }
+}
+@media (min-width: 351px) and (max-widht: 500px) {
+    .secondFlex {
+        width: 20%;
+    }
+} */
