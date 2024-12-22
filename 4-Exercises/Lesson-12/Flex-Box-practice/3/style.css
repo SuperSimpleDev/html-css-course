@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+span {
+    background: blue;
+    width: 50px;
+    color: white;
+}
