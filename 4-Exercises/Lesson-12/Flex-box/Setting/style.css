@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.flexContainer {
+    height: 230px;
+    width: 380px;
+    border: 2px solid rgb(209, 205, 205);
+    Border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+    font-family: helvetica;
+}
+.first-row {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    margin: 10px;
+    vertical-align: middle;
+    border-bottom: 2px solid rgb(230, 225, 225);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.home {
+    font-size: 20px;
+    transition: font-size 1s;
+}
+.home:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+.num {
+    background: blue;
+    color: white;
+    padding: 5px 16px;
+    font-size: 20PX;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: padding 1s, font-size 1s;
+}
+.num:hover {
+    padding: 5px 20px;
+    font-size: 23px;
+}
