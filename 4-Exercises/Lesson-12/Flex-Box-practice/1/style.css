@@ -3,9 +3,9 @@
 }
 .two {
     background: pink;
-    flex: 200px;
+    width: 200px;
 }
 .seven{
     background: skyblue;
-    flex: 75px;
+    width: 75px;
 }
