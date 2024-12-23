@@ -1,0 +1,48 @@
+body {
+    height: 3000px;
+}
+.header {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 40px;
+}
+.one {
+    display: flex;
+}
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h3 {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button {
+    display: flex;
+}
+button {
+    padding: 8px 12px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.message {
+    background: rgb(230, 230, 230);
+    color: black;
+}
