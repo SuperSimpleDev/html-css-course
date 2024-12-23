@@ -1,0 +1,79 @@
+.container {
+    margin: 20px;
+    color: black;
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+    width: fit-content;
+}
+img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 35px;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+.posterInfo {
+    display: flex;
+    flex-direction: row;
+}
+.posterName {
+    margin: 0;
+}
+.posterUserName {
+    color: rgb(122, 117, 117);
+    margin: 0;
+    font-size: 17px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.posterUserName:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.message-section {
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.message {
+    margin: 0;
+    line-height: 20px;
+    width: 400px;
+}
+.video-section {
+    display: flex;
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 8px;
+    margin-top: 13px;
+    margin-left: 5px;
+    width: 400px;
+}
+.video-section:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.video {
+    border-right: 1px solid rgb(214, 212, 212);
+    width: 150px;
+    background: rgb(214, 212, 212);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.videoInfo {
+    margin: 20px 5px 20px 10px;
+    font-size: 17px;
+}
+.video-link {
+    color: rgb(165, 162, 162);
+}
+.video-Info {
+    margin: 5px 0 0 0;
+}
