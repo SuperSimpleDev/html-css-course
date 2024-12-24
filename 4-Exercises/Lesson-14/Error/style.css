@@ -1,0 +1,35 @@
+body {
+    height: 3000px;
+}
+.right-sidebar {
+    background: rgb(6, 199, 6);
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    text-align: center;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model {
+    background: white;
+    width: 350px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 8px 0 0 18px;
+    font-family: Arial;
+}
+p {
+    font-weight: 550;
+}
