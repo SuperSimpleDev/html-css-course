@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;  
+    font-size: 50px;
+}
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+span.mic {
+    cursor: pointer;
+}
+p.tooltip {
+    position: absolute;
+    top: -70px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    transform: translateY(20deg);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 200ms;
+}
+p::before {
+    content: '';
+    position: absolute;
+    top: 43px;
+    left: 72px;
+    height: 0;
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid black;
+}
+div:hover p.tooltip{
+    opacity: 1;
+}
+
