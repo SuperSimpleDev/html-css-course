@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+}
+.one {
+    background: skyblue;
+    width: 50px;
+}
+.two {
+    background: pink;
+    flex: 1;
+}
+.three {
+    background: skyblue;
+    width: 75px;
+}

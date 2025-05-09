@@ -1,0 +1,64 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+.contianer {
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px gray;
+}
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transition: height 1s;
+}
+img:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 210px;
+}
+h3 {
+    font-weight: 900;
+    margin: 8px 0 0 10px;
+    font-size: 28px;
+}
+div.channel {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-top: 10px;
+    margin-left: 8px;
+
+}
+.channel-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.channel-picture:hover {
+    width: 40px;
+}
+p {
+    margin: 10px 0 0 10px;
+    font-size: 16px;
+    color: rgb(53, 52, 52);
+    font-family: tahoma;
+}
+button {
+    margin: 20px 0 5px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgb(31, 31, 219);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 100;
+    transition: background 1s, padding 1s;
+}
+button:hover {
+    background: green;
+    padding: 15px 20px;
+}

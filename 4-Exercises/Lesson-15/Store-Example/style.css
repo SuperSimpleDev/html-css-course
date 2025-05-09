@@ -1,0 +1,45 @@
+body {
+    height: 3000px;
+}
+.container {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background: rgb(202, 199, 199);
+    width: 300px;
+    height: 300px;
+    font-family: arial;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;;
+}
+.price {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.adding {
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 10px 15px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+}

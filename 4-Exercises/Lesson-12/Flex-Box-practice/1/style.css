@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+}
+.two {
+    background: pink;
+    width: 200px;
+}
+.seven{
+    background: skyblue;
+    width: 75px;
+}

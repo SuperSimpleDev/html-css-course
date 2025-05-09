@@ -1,0 +1,68 @@
+.contianer {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px gray;
+    transition: width 1s;
+}
+.contianer:hover {
+    width: 210px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: width 1s;
+}
+img:hover {
+    width: 210px;
+    cursor: pointer;
+}
+
+h3 {
+    font-weight: 900;
+    margin: 8px 0 0 10px;
+    font-size: 28px;
+}
+div.channel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 8px;
+
+}
+.channel-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    vertical-align: bottom;
+}
+.channel-picture:hover {
+    width: 40px;
+}
+p {
+    margin: 2px 0 0 10px;
+    font-size: 16px;
+    color: rgb(53, 52, 52);
+    font-family: tahoma;
+    vertical-align: bottom;
+}
+button {
+    margin: 20px 0 2px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgb(31, 31, 219);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 100;
+    transition: background 1s, padding 1s;
+}
+button:hover {
+    background: green;
+    padding: 15px 20px;
+}

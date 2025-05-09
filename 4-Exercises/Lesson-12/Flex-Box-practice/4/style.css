@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    padding: 20px 0;
+    margin: 5px 5px;
+    border: 1px solid gray;
+    justify-content: space-between;
+}
+span {
+    background: pink;
+    width: 50px;
+}

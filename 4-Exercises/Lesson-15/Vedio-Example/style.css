@@ -1,0 +1,40 @@
+body{
+    height: 3000px;
+}
+.container {
+    position: fixed;
+    height: 180px;
+    width: 300px;
+    background: rgb(160, 158, 158);
+    right: 20px;
+    bottom: 20px;
+}
+.video-time {
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial;
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close {
+    background: black;
+    border-radius: 30px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
