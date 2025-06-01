@@ -1,125 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flexbox Practice</title>
+    <title>Flexbox Advanced Practice</title>
+    <style>
+      /* Ajout d'un style global pour les divs pour éviter la répétition */
+      .box {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
   </head>
-  <body style="padding-bottom: 1000px;">
-    <div style="
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="background-color: lightblue;">div 1 text</div>
-      <div style="background-color: lightpink;">div 2 <p>text</p></div>
+  <body style="padding-bottom: 1000px; background-color: #f5f5f5;">
+    
+    <!-- Section 1: Flex de base avec hover effect -->
+    <div style="margin: 30px 0 10px 0; font-weight: bold;">1. Flex de base</div>
+    <div style="display: flex; flex-direction: row;">
+      <div class="box" style="background-color: lightblue; flex: 1;" 
+           onmouseover="this.style.backgroundColor='#6ec6ff'" 
+           onmouseout="this.style.backgroundColor='lightblue'">
+        Div 1 (flex: 1) - Passez la souris
+      </div>
+      <div class="box" style="background-color: lightpink; flex: 1;">
+        Div 2 <p style="margin: 5px 0;">avec paragraphe</p>
+      </div>
     </div>
 
-    <div style="
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        flex: 1;
-      ">flex: 1</div>
+    <!-- Section 2: Flex avec largeur fixe -->
+    <div style="margin: 40px 0 10px 0; font-weight: bold;">2. Flex avec largeur fixe</div>
+    <div style="display: flex; flex-direction: row; border: 1px dashed #ccc;">
+      <div class="box" style="background-color: lightblue; width: 150px;">
+        150px (fixe)
+      </div>
+      <div class="box" style="background-color: lightpink; flex: 1;">
+        flex: 1 (prend l'espace restant)
+      </div>
     </div>
 
-    <div style="
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="
-        background-color: lightblue;
-        flex: 1;
-      ">flex: 1</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        flex: 2;
-      ">flex: 2</div>
+    <!-- Section 3: Flex avec ratios différents -->
+    <div style="margin: 40px 0 10px 0; font-weight: bold;">3. Flex avec ratios</div>
+    <div style="display: flex; flex-direction: row; background-color: #eee;">
+      <div class="box" style="background-color: lightblue; flex: 1;">
+        flex: 1 (1 part)
+      </div>
+      <div class="box" style="background-color: lightpink; width: 120px;">
+        120px (fixe)
+      </div>
+      <div class="box" style="background-color: lightblue; flex: 3;">
+        flex: 3 (3 parts)
+      </div>
     </div>
 
+    <!-- Section 4: Centrage horizontal -->
+    <div style="margin: 40px 0 10px 0; font-weight: bold;">4. Centrage (justify-content: center)</div>
     <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
+      height: 80px;
+      border: 1px solid gray;
       display: flex;
       flex-direction: row;
       justify-content: center;
+      background-color: white;
     ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
+      <div class="box" style="background-color: lightblue; width: 100px;">100px</div>
+      <div class="box" style="background-color: lightpink; width: 100px;">100px</div>
+      <div class="box" style="background-color: lightblue; width: 100px;">100px</div>
     </div>
 
+    <!-- Section 5: Espacement égal -->
+    <div style="margin: 40px 0 10px 0; font-weight: bold;">5. Espacement égal (space-between)</div>
     <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
+      height: 80px;
+      border: 1px solid gray;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      background-color: white;
     ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
+      <div class="box" style="background-color: lightblue; width: 100px;">100px</div>
+      <div class="box" style="background-color: lightpink; width: 100px;">100px</div>
+      <div class="box" style="background-color: lightblue; width: 100px;">100px</div>
     </div>
 
+    <!-- Section 6: Alignement vertical -->
+    <div style="margin: 40px 0 10px 0; font-weight: bold;">6. Alignement vertical (align-items)</div>
     <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
+      height: 120px;
+      border: 1px solid gray;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      background-color: white;
     ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
+      <div class="box" style="background-color: lightblue; width: 100px; height: 60px;">Hauteur: 60px</div>
+      <div class="box" style="background-color: lightpink; width: 100px; height: 40px;">Hauteur: 40px</div>
+      <div class="box" style="background-color: lightblue; width: 100px; height: 80px;">Hauteur: 80px</div>
     </div>
+
   </body>
 </html>
