@@ -1,0 +1,60 @@
+.container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 8, 8);
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: arial;
+    margin: 0;
+}
+.fInput {
+    padding: 12px 170px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+    background: rgb(231, 229, 229);
+    outline-color: black;
+}
+.sInput {
+    margin-top: 10px;
+}
+.containertwo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    column-gap: 30px;
+}
+.request {
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: padding-right 1s, padding-left 1s, opacity 1s;
+}
+.hover:hover {
+    opacity: 0.8;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.whitehover {
+    background: rgb(231, 229, 229);
+    color: black;
+
+}
+.whitehover:hover {
+    opacity: 0.9;
+    padding-right: 30px;
+    padding-left: 30px;
+}
