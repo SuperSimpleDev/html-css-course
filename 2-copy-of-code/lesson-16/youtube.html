@@ -16,7 +16,8 @@
     <div class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
+        <a href="https://www.youtube.com/"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
+        
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search">
@@ -24,10 +25,14 @@
           <img class="search-icon" src="icons/search.svg">
           <div class="tooltip">Search</div>
         </button>
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          <div class="tooltip">Search with your voice</div>
-        </button>
+        <button class="search-button" aria-label="Search">
+  <img
+    class="search-icon"
+    src="icons/search.svg"
+    alt=""
+  >
+  <div class="tooltip">Search</div>
+</button>
       </div>
       <div class="right-section">
         <div class="upload-icon-container">
